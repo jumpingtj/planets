@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="simple_info.css">
+</head>
+
+<body>
+    <img src="images/background.jpeg" id="bg">
+
+    <button onclick="switch_to('mercury')" id="mercury-button" class="planet-buttons"><img src="images/mercury.png"></button><button onclick="switch_to('venus')" id="venus-button" class="planet-buttons"><img src="images/venus.png"></button><button onclick="switch_to('earth')"
+        id="earth-button" class="planet-buttons"><img src="images/earth.png"></button><button onclick="switch_to('mars')" id="mars-button" class="planet-buttons"><img src="images/mars.png"></button><button onclick="switch_to('jupiter')" id="jupiter-button"
+        class="planet-buttons"><img src="images/jupiter.png"></button>
+    <div id="mercury-info" class="planet-info">Radius: 2.439 km <br>Diameter: 4.879 km <br>Mass: 3.285 × 10^23 kg (5.5% of Earth) <br>Density: 5.43 g/cm³ <br>Distance from the Sun: 57.91 million km <br></div>
+    <div id="venus-info" class="planet-info">Distance from the Sun: 108.2 million km <br></div>
+    <div id="earth-info" class="planet-info"></div>
+    <div id="mars-info" class="planet-info"></div>
+    <div id="jupiter-info" class="planet-info"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+    <script src="simple_info.js">
+    </script>
+</body>
+
+</html>

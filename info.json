@@ -1,0 +1,21 @@
+{
+    "mercury": {
+        "Radius": "2.439 km",
+        "Diameter": "4.879 km",
+        "Mass": "3.285 × 10^23 kg (5.5% of Earth)",
+        "Density": "5.43 g/cm³",
+        "Distance from the Sun": "57.91 million km"
+    },
+    "venus": {
+        "Distance from the Sun": "108.2 million km"
+    },
+    "earth": {
+
+    },
+    "mars": {
+
+    },
+    "jupiter": {
+
+    }
+}
