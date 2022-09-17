@@ -1,7 +1,10 @@
 {
+    "sun": {
+
+    },
     "mercury": {
-        "Radius": "2.439 km",
-        "Diameter": "4.879 km",
+        "Radius": "2.439 million km",
+        "Diameter": "4.879 million km",
         "Mass": "3.285 × 10^23 kg (5.5% of Earth)",
         "Density": "5.43 g/cm³",
         "Distance from the Sun": "57.91 million km"
@@ -12,10 +15,26 @@
     "earth": {
 
     },
-    "mars": {
+    "moon": {
 
     },
+    "mars": {
+        "Surface area": "144.37×106 km2 (5.574×107 sq mi; 0.284 Earths)",
+        "Volume": "1.63118×1011 km3(0.151 Earths)",
+        "Mass": "6.4171×1023 kg(0.107 Earths)",
+        "Diameter": "6.779 million km",
+        "Distance from the Sun": "227.9 million km"
+    },
     "jupiter": {
+
+    },
+    "saturn": {
+
+    },
+    "uranus": {
+
+    },
+    "neptune": {
 
     }
 }
