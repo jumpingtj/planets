@@ -8,6 +8,15 @@ body {
     font-size: 1.6em;
 }
 button{
+    color: midnightblue;
     background-color:azure;
     width: 30%;
+    height: 30px;
+    border-radius: 25px;
+    border-style:solid;
+    margin: 5px;
+}
+button:hover{
+    color: azure;
+    background-color: dodgerblue;
 }
