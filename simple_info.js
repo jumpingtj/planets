@@ -17,3 +17,14 @@ function switch_to(thing) {
     $(".planet-info").hide(0);
     $(`#${thing}-info`).show(0);
 }
+
+// $(document).keydown(function(e){
+//     var go = 0;
+//     if (e.which == 37) { 
+//        go = -1;
+//     }
+//     if (e.which == 39) {
+//         go = 1
+//     }
+//     if 
+// });

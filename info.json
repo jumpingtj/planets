@@ -10,6 +10,9 @@
         "Distance from the Sun": "57.91 million km"
     },
     "venus": {
+        "Radius": "6.051 million km",
+        "Diameter": "12.104 km",
+        "Mass": " 4.87 × 10^24 kg (85% of Earth)",
         "Distance from the Sun": "108.2 million km"
     },
     "earth": {
@@ -19,10 +22,11 @@
 
     },
     "mars": {
-        "Surface area": "144.37×106 km2 (5.574×107 sq mi; 0.284 Earths)",
-        "Volume": "1.63118×1011 km3(0.151 Earths)",
-        "Mass": "6.4171×1023 kg(0.107 Earths)",
         "Diameter": "6.779 million km",
+        "Mass": "6.4171×1023 kg(0.107 Earths)",
+        "Density": "3.93 g/cm³",
+        "Volume": "1.63118×1011 km3(0.151 Earths)",
+        "Surface area": "144.37×106 km2 (5.574×107 sq mi; 0.284 Earths)",
         "Distance from the Sun": "227.9 million km"
     },
     "jupiter": {
