@@ -3,16 +3,20 @@
 
     },
     "mercury": {
+        "Intro": "Mercury is a ",
         "Radius": "2.439 million km",
         "Diameter": "4.879 million km",
-        "Mass": "3.285 × 10^23 kg (5.5% of Earth)",
-        "Density": "5.43 g/cm³",
+        "Mass": "3.285 × 10<sup>23</sup> kg (5.5% of Earth)",
+        "Density": "5.43 g/cm<sup>3</sup>",
         "Distance from the Sun": "57.91 million km"
     },
     "venus": {
         "Radius": "6.051 million km",
         "Diameter": "12.104 km",
-        "Mass": " 4.87 × 10^24 kg (85% of Earth)",
+        "Mass": " 4.87 × 10<sup>24</sup> kg (85% of Earth)",
+        "Density": "5.24 g/cm<sup>3</sup>",
+        "Volume": "928.45 billion cubic km",
+        "Surface area": "460.2 million km²",
         "Distance from the Sun": "108.2 million km"
     },
     "earth": {
@@ -24,13 +28,13 @@
     "mars": {
         "Diameter": "6.779 million km",
         "Mass": "6.4171×1023 kg(0.107 Earths)",
-        "Density": "3.93 g/cm³",
-        "Volume": "1.63118×1011 km3(0.151 Earths)",
-        "Surface area": "144.37×106 km2 (5.574×107 sq mi; 0.284 Earths)",
+        "Density": "3.93 g/cm<sup>3</sup>",
+        "Volume": "1.63118×1011 km<sup>3</sup>(0.151 Earths)",
+        "Surface area": "144.37×106 km<sup>2</sup> (5.574×107 sq mi; 0.284 Earths)",
         "Distance from the Sun": "227.9 million km"
     },
     "jupiter": {
-
+        "Intro": "Jupiter is a <a href='/planets/detailed_info/gas_giants.html'>gas giant</a>"
     },
     "saturn": {
 
