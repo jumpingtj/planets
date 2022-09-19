@@ -8,6 +8,8 @@
         "Diameter": "4.879 million km",
         "Mass": "3.285 × 10<sup>23</sup> kg (5.5% of Earth)",
         "Density": "5.43 g/cm<sup>3</sup>",
+        "Leangth of day": "59 Earth days",
+        "Leangth of year": "88 Earth days (1.491 Mercury days)",
         "Distance from the Sun": "57.91 million km"
     },
     "venus": {
@@ -17,10 +19,15 @@
         "Density": "5.24 g/cm<sup>3</sup>",
         "Volume": "928.45 billion cubic km",
         "Surface area": "460.2 million km²",
+        "Leangth of day": "243 Earth days",
+        "Leangth of year": "244 Earth days 17 hours (1.007030178326475 Venus days)",
         "Distance from the Sun": "108.2 million km"
     },
     "earth": {
-
+        "Diameter": "",
+        "Leangth of day": "23 hours 56 minutes 13 seconds",
+        "Length of year": "365 days 6 hours",
+        "Distace from the Sun": ""
     },
     "moon": {
 
@@ -31,16 +38,28 @@
         "Density": "3.93 g/cm<sup>3</sup>",
         "Volume": "1.63118×1011 km<sup>3</sup>(0.151 Earths)",
         "Surface area": "144.37×106 km<sup>2</sup> (5.574×107 sq mi; 0.284 Earths)",
+        "Leangth of day": "24 hours 37 minutes",
+        "Leangth of year": "687 Earth days",
         "Distance from the Sun": "227.9 million km"
     },
     "jupiter": {
         "Intro": "Jupiter is a <a href='/planets/detailed_info/gas_giants.html'>gas giant</a>"
     },
     "saturn": {
-
+        "Radius": "58.232 million km",
+        "Diameter": "120.536 milion km",
+        "Mass": "5.683 x 10<sup>26</sup> kg",
+        "Density": "Estamated to be 0.687 g/cm<sup>3</sup>",
+        "Composition": "Mostly Hydrogen and Heliumn",
+        "Length of day": "10 hours 39 minutes",
+        "Length of year": "29.5 Earth years",
+        "Distace from the Sun": "1.4731 billion km"
     },
     "uranus": {
-
+        "Radius": "25.362 million km",
+        "Mass": "8.681 x 10<sup>25</sup> kg",
+        "Volume": "68,334,355,695,584 km<sup>3</sup>",
+        "Density": "1.27 g/cm<sup>3</sup>"
     },
     "neptune": {
 
