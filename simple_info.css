@@ -78,6 +78,21 @@ img {
     pointer-events: none;
 }
 
+#home-button {
+    position: fixed;
+    left: 1%;
+    bottom: 1%;
+}
+
+#home-text {
+    position: fixed;
+    left: 5%;
+    bottom: 5%;
+    color: azure;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
 
 /* .highlighted-planet-button {
     border: 2px solid red;
