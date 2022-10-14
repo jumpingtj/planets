@@ -7,7 +7,7 @@ print(info, type(info))
 for planet in info: # loop through planets
     output.write(f"<button onclick=\"switch_to('{planet}')\" id=\"{planet}-button\" class=\"planet-buttons\"><img src=\"images/{planet}.png\" class=\"planet-button-image\"></button>")
 for planet in info:
-    output.write(f"<div id=\"{planet}-info\" class=\"planet-info\">\n   <span class=\"planet-name\" id=\"{planet}-name\">{planet.title()}</span>\n")
+    output.write(f"<div id=\"{planet}-info\" class=\"planet-info\">\n   <span class=\"planet-name\" id=\"{planet}-name\"><a href=\"detailed-info/{planet}.html\">{planet.title()}</a></span>\n")
     print(info[planet])
     for key in info[planet]: # loop through info
         if key == "Intro":

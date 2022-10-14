@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://jumpingtj.github.io/planets/images/background-.jpg");
+    height: 100%;
+    width: 99%;
+    color: aliceblue;
+    font-size: large;
+}
+
+#container {
+    margin-left: 2.7%;
+}
+
+#title {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+}
