@@ -15,3 +15,7 @@ body {
     font-size: 4em;
     font-weight: bold;
 }
+
+p {
+    font-weight: 500;
+}
