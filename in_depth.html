@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/in_depth.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="/">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Planets</button>
+            <div class="dropdown-content">
+                <a href="javascript:page('murcury')">Mercury</a>
+                <a href="javascript:page('venus')">Venus</a>
+                <a href="javascript:page('earth')">Earth &#128516;</a>
+                <a href="javascript:page('mars')">Mars</a>
+                <a href="javascript:page('jupiter')">Jupiter</a>
+                <a href="javascript:page('saturn')">Saturn</a>
+                <a href="javascript:page('uranus')">Uranus</a>
+                <a href="javascript:page('neptune')">Neptune</a>
+                <a href="javascript:page('pluto')"><s>Pluto</s></a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Stars</button>
+            <div class="dropdown-content">
+                <a href="javascript:page('sun')">The Sun</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Moons</button>
+            <div class="dropdown-content">
+                <a href="javascript:page('saturn')">The Moon</a>
+                <a href="javascript:page('mars-moons')">Mars</a>
+                <a href="javascript:page('venus-moons')">Venus</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">123456789</button>
+            <div class="dropdown-content">
+                <a href="javascript:page('saturn')">Saturn</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+    <div id="page-container">
+        <div id="earth">
+            <h5>Earth</h5><br>
+            <img id="blend-earth-img" src="/images/blend-earth.png">
+        </div>
+        <div id="saturn">
+            <h5>Saturn</h5><br> Saturn is an icy gas giant (being an average of -178&deg;C), and has very promenent rings. It also has the largest number of moons of any of the planets in the Solar System.
+
+            <h1>Formation</h1>
+            <p id="Formation-paragraph">
+                Saturn formed together with the rest of the solar system about 4.5 billion years ago. Gravity pulled swirling gas and dust together to create the gas giant. About 4 billion years ago, Saturn settled into its current position in the outer solar system.
+            </p><br>
+            <h1>Composition</h1>
+            <p id="Composition-paragraph">Saturn is made up mostly of hydrogen and helium, though some metals, like iron and nickel, and hot rocks nearer the core. There is thought to be a solid core about the size of Earth in the very center of the planet.
+            </p>
+            <img src="/images/saturn-structure.png">
+        </div>
+        <div id="pluto">
+            This page does not exist. &#9785;
+        </div>
+    </div>
+
+    <script src="in_depth.js"></script>
+</body>
+
+</html>
