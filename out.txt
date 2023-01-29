@@ -1,9 +1,9 @@
 <button onclick="switch_to('sun')" id="sun-button" class="planet-buttons"><img src="images/sun.png" class="planet-button-image"></button><button onclick="switch_to('mercury')" id="mercury-button" class="planet-buttons"><img src="images/mercury.png" class="planet-button-image"></button><button onclick="switch_to('venus')" id="venus-button" class="planet-buttons"><img src="images/venus.png" class="planet-button-image"></button><button onclick="switch_to('earth')" id="earth-button" class="planet-buttons"><img src="images/earth.png" class="planet-button-image"></button><button onclick="switch_to('moon')" id="moon-button" class="planet-buttons"><img src="images/moon.png" class="planet-button-image"></button><button onclick="switch_to('mars')" id="mars-button" class="planet-buttons"><img src="images/mars.png" class="planet-button-image"></button><button onclick="switch_to('jupiter')" id="jupiter-button" class="planet-buttons"><img src="images/jupiter.png" class="planet-button-image"></button><button onclick="switch_to('saturn')" id="saturn-button" class="planet-buttons"><img src="images/saturn.png" class="planet-button-image"></button><button onclick="switch_to('uranus')" id="uranus-button" class="planet-buttons"><img src="images/uranus.png" class="planet-button-image"></button><button onclick="switch_to('neptune')" id="neptune-button" class="planet-buttons"><img src="images/neptune.png" class="planet-button-image"></button><div id="sun-info" class="planet-info">
-   <span class="planet-name" id="sun-name"><a href="detailed-info/sun.html">Sun</a></span>
+   <span class="planet-name" id="sun-name"><a href="in_depth.html?page=sun">Sun</a></span>
     <strong>Mass</strong>: 1,988.5 x 10<sup>25</sup> <br>
     <strong>Surface (top of photoshere) Temprature</strong>: 4400K (4126.85&deg;C or 7460.33 &deg;F) <br>
     <img class="planet-image" id=sun-image src="images/sun.png"></div><div id="mercury-info" class="planet-info">
-   <span class="planet-name" id="mercury-name"><a href="detailed-info/mercury.html">Mercury</a></span>
+   <span class="planet-name" id="mercury-name"><a href="in_depth.html?page=mercury">Mercury</a></span>
 <span class="planet-intro" id="mercury-intro">Mercury is a </span>    <strong>Radius</strong>: 2.439 million km <br>
     <strong>Diameter</strong>: 4.879 million km <br>
     <strong>Mass</strong>: 3.285 × 10<sup>23</sup> kg (5.5% of Earth) <br>
@@ -12,7 +12,7 @@
     <strong>Leangth of year</strong>: 88 Earth days (1.491 Mercury days) <br>
     <strong>Distance from the Sun</strong>: 57.91 million km <br>
     <img class="planet-image" id=mercury-image src="images/mercury.png"></div><div id="venus-info" class="planet-info">
-   <span class="planet-name" id="venus-name"><a href="detailed-info/venus.html">Venus</a></span>
+   <span class="planet-name" id="venus-name"><a href="in_depth.html?page=venus">Venus</a></span>
     <strong>Radius</strong>: 6.051 million km <br>
     <strong>Diameter</strong>: 12.104 km <br>
     <strong>Mass</strong>:  4.87 × 10<sup>24</sup> kg (85% of Earth) <br>
@@ -23,15 +23,15 @@
     <strong>Leangth of year</strong>: 244 Earth days 17 hours (1.007030178326475 Venus days) <br>
     <strong>Distance from the Sun</strong>: 108.2 million km <br>
     <img class="planet-image" id=venus-image src="images/venus.png"></div><div id="earth-info" class="planet-info">
-   <span class="planet-name" id="earth-name"><a href="detailed-info/earth.html">Earth</a></span>
+   <span class="planet-name" id="earth-name"><a href="in_depth.html?page=earth">Earth</a></span>
     <strong>Diameter</strong>:  <br>
     <strong>Leangth of day</strong>: 23 hours 56 minutes 13 seconds <br>
     <strong>Length of year</strong>: 365 days 6 hours <br>
     <strong>Distace from the Sun</strong>:  <br>
     <img class="planet-image" id=earth-image src="images/earth.png"></div><div id="moon-info" class="planet-info">
-   <span class="planet-name" id="moon-name"><a href="detailed-info/moon.html">Moon</a></span>
+   <span class="planet-name" id="moon-name"><a href="in_depth.html?page=moon">Moon</a></span>
     <img class="planet-image" id=moon-image src="images/moon.png"></div><div id="mars-info" class="planet-info">
-   <span class="planet-name" id="mars-name"><a href="detailed-info/mars.html">Mars</a></span>
+   <span class="planet-name" id="mars-name"><a href="in_depth.html?page=mars">Mars</a></span>
     <strong>Diameter</strong>: 6.779 million km <br>
     <strong>Mass</strong>: 6.4171×1023 kg(0.107 Earths) <br>
     <strong>Density</strong>: 3.93 g/cm<sup>3</sup> <br>
@@ -41,9 +41,9 @@
     <strong>Leangth of year</strong>: 687 Earth days <br>
     <strong>Distance from the Sun</strong>: 227.9 million km <br>
     <img class="planet-image" id=mars-image src="images/mars.png"></div><div id="jupiter-info" class="planet-info">
-   <span class="planet-name" id="jupiter-name"><a href="detailed-info/jupiter.html">Jupiter</a></span>
+   <span class="planet-name" id="jupiter-name"><a href="in_depth.html?page=jupiter">Jupiter</a></span>
 <span class="planet-intro" id="jupiter-intro">Jupiter is a <a href='/planets/detailed_info/gas_giants.html'>gas giant</a></span>    <img class="planet-image" id=jupiter-image src="images/jupiter.png"></div><div id="saturn-info" class="planet-info">
-   <span class="planet-name" id="saturn-name"><a href="detailed-info/saturn.html">Saturn</a></span>
+   <span class="planet-name" id="saturn-name"><a href="in_depth.html?page=saturn">Saturn</a></span>
     <strong>Radius</strong>: 58.232 million km <br>
     <strong>Diameter</strong>: 120.536 milion km <br>
     <strong>Mass</strong>: 5.683 x 10<sup>26</sup> kg <br>
@@ -53,11 +53,11 @@
     <strong>Length of year</strong>: 29.5 Earth years <br>
     <strong>Distace from the Sun</strong>: 1.4731 billion km <br>
     <img class="planet-image" id=saturn-image src="images/saturn.png"></div><div id="uranus-info" class="planet-info">
-   <span class="planet-name" id="uranus-name"><a href="detailed-info/uranus.html">Uranus</a></span>
+   <span class="planet-name" id="uranus-name"><a href="in_depth.html?page=uranus">Uranus</a></span>
     <strong>Radius</strong>: 25.362 million km <br>
     <strong>Mass</strong>: 8.681 x 10<sup>25</sup> kg <br>
     <strong>Volume</strong>: 68,334,355,695,584 km<sup>3</sup> <br>
     <strong>Density</strong>: 1.27 g/cm<sup>3</sup> <br>
     <img class="planet-image" id=uranus-image src="images/uranus.png"></div><div id="neptune-info" class="planet-info">
-   <span class="planet-name" id="neptune-name"><a href="detailed-info/neptune.html">Neptune</a></span>
+   <span class="planet-name" id="neptune-name"><a href="in_depth.html?page=neptune">Neptune</a></span>
     <img class="planet-image" id=neptune-image src="images/neptune.png"></div>
