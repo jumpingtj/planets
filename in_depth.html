@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="in_depth.css">
+    <link rel="stylesheet" href="topnav.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
             <button class="dropbtn">Stars</button>
             <div class="dropdown-content">
                 <a href="javascript:page('sun')">The Sun</a>
-                <a href="#">Link 2</a>
+                <a href="javascript:page('alpha-centuri')">Alpha Centuri</a>
                 <a href="#">Link 3</a>
             </div>
         </div>
@@ -38,7 +39,11 @@
                 <a href="javascript:page('venus-moons')">Venus</a>
             </div>
         </div>
+        <div id="overlay">
+            <div id="overlay-content">hi</div>
+        </div>
     </div>
+    <a id="overlay-btn" onclick="openNav()">Open nav</a>
     <div id="page-container">
         <div id="earth">
             <h5>Earth</h5><br>
@@ -59,9 +64,17 @@
         <div id="_pluto">
             This page does not exist. &#9785;
         </div>
+        <div id="alpha-centuri">
+            <h5>Alpha Centuri</h5><br> Alpha Centuri is a three star system, including the closest star to our Sun.
+            <h1>Stars</h1>
+            Alpha Centuri contains three stars: Alpha Centuri A (Rigil Kentaurus), Alpha Centuri B (Toliman), and Alpha Centuri C, the famous Proxima Centuri. Proxima Centauri is also the closest star to the Sun at 4.2465 light years (1.3020 pc). Alpha Centuri A
+            and B are class G and H respectivly, making up the binary star system Alpha Centuri AB. Alpha Centuri C is a small red dwarf, invisible to the naked eye.
+            <h1>Alpha Centuri AB</h1>
+        </div>
     </div>
 
     <script src="in_depth.js"></script>
+    <script src="topnav.js"></script>
 </body>
 
 </html>
