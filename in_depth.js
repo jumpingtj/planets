@@ -11,6 +11,16 @@ function page(page) {
             pageNode.style.display = "none";
         }
     }
+    var dropdown = document.querySelectorAll(".dropdown-content");
+    console.log(dropdown);
+    dropdown.forEach(element => {
+        element.style.display = "none";
+    });
+    setTimeout(function() {
+        dropdown.forEach(element => {
+            element.style = "";
+        })
+    }, 120);
 }
 
 const params = new Proxy(new URLSearchParams(window.location.search), {
@@ -20,3 +30,15 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 if (params.page !== null) {
     page(params.page);
 }
+
+document.addEventListener(
+    "keydown",
+    (event) => {
+        if (event.key === "j") {
+            var code = prompt("Plese enter the code:");
+            if (parseInt(code) * 3.152 === 7835.872) {
+                alert("Well done!");
+            }
+        }
+    }
+);
