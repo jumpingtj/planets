@@ -1,6 +1,6 @@
 function page(page) {
     document.body.style.backgroundImage = "none";
-    document.head.title = "Planets - " + page;
+    // document.title = "Planets - " + page;
     var pages = document.querySelectorAll("#page-container div");
     console.log(pages);
     for (let index = 0; index < pages.length; index++) {
@@ -23,12 +23,18 @@ function page(page) {
     }, 120);
 }
 
+// ?page={page} to be replaced by #page
 const params = new Proxy(new URLSearchParams(window.location.search), {
     get: (searchParams, prop) => searchParams.get(prop),
 });
-// console.log(params.page);
+console.log(params.page);
 if (params.page !== null) {
     page(params.page);
+}
+// Replace up to here
+var URLpage = location.hash.slice(1); // Does not throw error at ""
+if (URLpage) {
+    page(URLpage);
 }
 
 document.addEventListener(

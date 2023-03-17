@@ -42,13 +42,18 @@
     <strong>Distance from the Sun</strong>: 227.9 million km <br>
     <img class="planet-image" id=mars-image src="images/mars.png"></div><div id="jupiter-info" class="planet-info">
    <span class="planet-name" id="jupiter-name"><a href="in_depth.html?page=jupiter">Jupiter</a></span>
-<span class="planet-intro" id="jupiter-intro">Jupiter is a <a href='/planets/detailed_info/gas_giants.html'>gas giant</a></span>    <img class="planet-image" id=jupiter-image src="images/jupiter.png"></div><div id="saturn-info" class="planet-info">
+<span class="planet-intro" id="jupiter-intro">Jupiter is a <a href='/planets/detailed_info/gas_giants.html'>gas giant</a></span>    <strong>Radius</strong>: 69.911 million km <br>
+    <strong>Mass</strong>: 1.898 × 10<sup>27</sup> kg <br>
+    <strong>Density</strong>: 1.3 g/cm<sup>3</sup> <br>
+    <strong>Length of day</strong>: 9 hours 56 minutes <br>
+    <strong>Length of year</strong>: 4333 Earth days (roughly 11.8633673017 years) <br>
+    <img class="planet-image" id=jupiter-image src="images/jupiter.png"></div><div id="saturn-info" class="planet-info">
    <span class="planet-name" id="saturn-name"><a href="in_depth.html?page=saturn">Saturn</a></span>
     <strong>Radius</strong>: 58.232 million km <br>
     <strong>Diameter</strong>: 120.536 milion km <br>
     <strong>Mass</strong>: 5.683 x 10<sup>26</sup> kg <br>
     <strong>Density</strong>: Estamated to be 0.687 g/cm<sup>3</sup> <br>
-    <strong><a href='detailed-info/saturn.html#Composition'>Composition</a></strong>: Mostly Hydrogen and Heliumn <br>
+    <strong><a href='in_depth.html?page=saturn#Composition'>Composition</a></strong>: Mostly Hydrogen and Heliumn <br>
     <strong>Length of day</strong>: 10 hours 39 minutes <br>
     <strong>Length of year</strong>: 29.5 Earth years <br>
     <strong>Distace from the Sun</strong>: 1.4731 billion km <br>

@@ -29,8 +29,13 @@ h5 {
 
 #blend-earth-img {
     width: 35%;
-    float: right;
 }
+
+.float-right-img {
+    float: right;
+    position: relative;
+}
+
 
 /* Add a color to the active/current link */
 
