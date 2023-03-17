@@ -44,14 +44,19 @@
         "Distance from the Sun": "227.9 million km"
     },
     "jupiter": {
-        "Intro": "Jupiter is a <a href='/planets/detailed_info/gas_giants.html'>gas giant</a>"
+        "Intro": "Jupiter is a <a href='/planets/detailed_info/gas_giants.html'>gas giant</a>",
+        "Radius": "69.911 million km",
+        "Mass": "1.898 × 10<sup>27</sup> kg",
+        "Density": "1.3 g/cm<sup>3</sup>",
+        "Length of day": "9 hours 56 minutes",
+        "Length of year": "4333 Earth days (roughly 11.8633673017 years)"
     },
     "saturn": {
         "Radius": "58.232 million km",
         "Diameter": "120.536 milion km",
         "Mass": "5.683 x 10<sup>26</sup> kg",
         "Density": "Estamated to be 0.687 g/cm<sup>3</sup>",
-        "<a href='detailed-info/saturn.html#Composition'>Composition</a>": "Mostly Hydrogen and Heliumn",
+        "<a href='in_depth.html?page=saturn#Composition'>Composition</a>": "Mostly Hydrogen and Heliumn",
         "Length of day": "10 hours 39 minutes",
         "Length of year": "29.5 Earth years",
         "Distace from the Sun": "1.4731 billion km"
